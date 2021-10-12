@@ -1,0 +1,77 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+body{
+  text-align: center;
+  background-color: #171717;
+  color: cornflowerblue;
+  background-size: cover;
+}
+
+
+
+h1{
+  color: orange;
+  text-shadow: cornflowerblue;
+  text-shadow: cornflowerblue;
+}
+
+h3{
+  color: purple;
+}
+/* refrenced flaviocopes.com/ */
+.wuLogo {
+  margin-top: 5%;
+  animation: rotation 8s infinite linear;
+  height: 300px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+button{
+  background-color: orange;
+  color: purple;
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.30em solid black;
+  border-radius:10em;
+  box-sizing: border-box;
+  text-decoration: bold;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+clear:both;
+}
+
+button:hover{
+  background-color: green;
+}
+
+
